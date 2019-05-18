@@ -1,5 +1,5 @@
 ## Emoji picker for react-native
-Powered by the awesome `emoji-datasource`
+Powered by the awesome `emojilib`
 
 ![AnimatedExample](animated-example.gif)
 
@@ -65,7 +65,7 @@ class Main extends React.Component {
         <EmojiOverlay 
           style={styles.emojiPicker} 
           visible={this.state.showPicker}
-          onTapOutside={() => this.setState({showPicker: false})}
+          onTapOutsize={() => this.setState({showPicker: false})}
           horizontal={true}
           onEmojiSelected={this._emojiSelected}/>
 
@@ -79,4 +79,4 @@ class Main extends React.Component {
 #### Component props
 - (...all EmojiPicker props)
 - `visible` (Bool) - Required. Is the overlay visible
-- `onTapOutside` (Function) - Required. Callback for when user taps outside the EmojiPicker area. Should set `visible` to `false`
+- `onTapOutsize` (Function) - Required. Callback for when user taps outside the EmojiPicker area. Should set `visible` to `false`

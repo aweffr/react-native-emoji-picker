@@ -1,34 +1,14 @@
 {
   "name": "react-native-emoji-picker",
   "version": "0.2.2",
-  "description": "Simple emoji picker for react-native",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:yonahforst/react-native-emoji-picker.git"
-  },
-  "keywords": [
-    "react-native",
-    "react-component",
-    "ios",
-    "emoji",
-    "emoji-picker"
-  ],
-  "peerDependencies": {
-    "react": "^15.2.0",
-    "react-native": "^0.30.0",
-    "prop-types": "^15.6.0"
-  },
   "dependencies": {
     "emoji-datasource": "^2.4.4",
     "lodash": "^4.11.1",
     "prop-types": "^15.6.0",
     "string.fromcodepoint": "^0.2.1"
   },
-  "author": "Yonah Forst <yonaforst@hotmail.com> (https://github.com/yonahforst)",
+  "deprecated": false,
+  "description": "Simple emoji picker for react-native",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yonahforst/react-native-emoji-picker/issues"
-  },
-  "homepage": "https://github.com/ryonahforst/react-native-emoji-picker"
+  "main": "index.js"
 }
